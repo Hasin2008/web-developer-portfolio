@@ -5,7 +5,7 @@
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings:
-      "wdth" 100;
+      width 100;
   }
 
 
@@ -37,13 +37,13 @@
   font-weight: bold;
   font-size: 20px;
   color: #FD6E0A;
-  padding: 18px 35px;
+  padding: 16px 40px;
   border-radius: 10px;
   border-color: #FD6E0A;
 }
 
-  .icon{
-    margin-right: 10px;
+ .icon{
+  margin-right: 10px;
   }
 
   .section-title{
@@ -55,6 +55,10 @@
   .section-description{
     font-size: 18px;
     color: #757575;
+  }
+
+  .text-center{
+    text-align: center;
   }
 
   /* header */
@@ -115,10 +119,18 @@ nav li a {
   width: 580px;
 }
 
+.banner-description{
+  margin-bottom: 40px;
+}
 /* main styles */
 main{
   max-width: 1140px;
   margin: 0 auto;
+}
+
+main section{
+  margin-top: 130px;
+  margin-bottom: 130px;
 }
 
 /* About styles */
@@ -126,7 +138,6 @@ main{
   border-radius: 10px;
   padding: 130px 150px;
   text-align: center;
-  margin-top: 130px;
 }
 
 .about-items{
@@ -137,4 +148,21 @@ main{
   font: 600;
   font-weight: bold;
   color: #757575;
+}
+
+/* skill section style */
+.section-description{
+  padding: 30px;
+}
+
+.skills-container{
+  display: flex;
+  gap: 24;
+  margin-top: 50px;
+}
+
+.skill{
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
