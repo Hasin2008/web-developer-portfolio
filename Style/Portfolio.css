@@ -122,6 +122,7 @@ nav li a {
 .banner-description{
   margin-bottom: 40px;
 }
+
 /* main styles */
 main{
   max-width: 1140px;
@@ -201,4 +202,43 @@ main section{
 
 .resume-download-cv{
   margin-top: 50px;
+}
+
+.footer-column{
+  width: 50%;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: space-around;
+  height: 700px;
+  text-align: center;
+}
+
+.column-description{
+  color: #474747;
+  width: 562px;
+  padding-left: 80px;
+  padding-top: 20px;
+}
+
+.icon{
+  padding-left: 80px;
+  padding-top: 20px;
+  width: 20px;
+  display: flex;
+  gap: 20px;
+  color: #FD6E0A;
+}
+
+.Contact input[type="text"], .Contact input[type="email"], 
+textarea{
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  background:  #FFF;
+  border: 0;
+  width: 100%;
 }
